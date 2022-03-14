@@ -15,11 +15,11 @@ F:/FreeCodeCamp/Unity/FPS Survival Game
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49977
+56832
 Successfully changed project path to: F:/FreeCodeCamp/Unity/FPS Survival Game
 F:/FreeCodeCamp/Unity/FPS Survival Game
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 159.95 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 31.90 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.25f1 (9b9180224418)
 [Subsystems] Discovering subsystems at path F:/unity/2020.3.25f1/Editor/Data/Resources/UnitySubsystems
@@ -35,89 +35,89 @@ Initialize mono
 Mono path[0] = 'F:/unity/2020.3.25f1/Editor/Data/Managed'
 Mono path[1] = 'F:/unity/2020.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'F:/unity/2020.3.25f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56880
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56012
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: F:/unity/2020.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.078402 seconds.
+Registered in 0.000942 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 28.50 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 29.46 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.493 seconds
+- Completed reload, in  0.564 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1493ms)
-		BeginReloadAssembly (387ms)
+	ReloadAssembly (564ms)
+		BeginReloadAssembly (54ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (766ms)
-			LoadAssemblies (387ms)
-			RebuildTransferFunctionScriptingTraits (7ms)
-			SetupTypeCache (347ms)
+		EndReloadAssembly (446ms)
+			LoadAssemblies (53ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (150ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (35ms)
-			SetupLoadedEditorAssemblies (178ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (155ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (29ms)
-				BeforeProcessingInitializeOnLoad (19ms)
-				ProcessInitializeOnLoadAttributes (89ms)
-				ProcessInitializeOnLoadMethodAttributes (25ms)
+				RefreshPlugins (30ms)
+				BeforeProcessingInitializeOnLoad (17ms)
+				ProcessInitializeOnLoadAttributes (77ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.100930 seconds.
+Registered in 0.003040 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.409 seconds
+- Completed reload, in  0.904 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3410ms)
-		BeginReloadAssembly (173ms)
+	ReloadAssembly (905ms)
+		BeginReloadAssembly (129ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (46ms)
-		EndReloadAssembly (3170ms)
-			LoadAssemblies (1039ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (725ms)
+			LoadAssemblies (73ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (534ms)
+			SetupTypeCache (247ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (50ms)
-			SetupLoadedEditorAssemblies (1451ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (279ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (78ms)
-				ProcessInitializeOnLoadAttributes (1228ms)
-				ProcessInitializeOnLoadMethodAttributes (137ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (191ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.18 seconds
-Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.20 seconds
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1517 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 71.9 MB.
-System memory in use after: 72.0 MB.
+System memory in use before: 78.2 MB.
+System memory in use after: 78.3 MB.
 
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1949.
-Total: 45.089900 ms (FindLiveObjects: 0.184400 ms CreateObjectMapping: 0.048500 ms MarkObjects: 44.618600 ms  DeleteObjects: 0.236200 ms)
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1963.
+Total: 4.566200 ms (FindLiveObjects: 0.170200 ms CreateObjectMapping: 0.109300 ms MarkObjects: 4.188200 ms  DeleteObjects: 0.097600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -131,33 +131,129 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Effects
-  artifactKey: Guid(f9a8261d8ff9c67489242af0c6f9544f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Effects using Guid(f9a8261d8ff9c67489242af0c6f9544f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53506f25939248c7d69a0303919d9cd0') in 0.007032 seconds 
-  Import took 0.010515 seconds .
+  path: Assets/Textures/Weapons/First Person/Axe.png
+  artifactKey: Guid(786e3387ac0e1f6469b647809ebe55f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Weapons/First Person/Axe.png using Guid(786e3387ac0e1f6469b647809ebe55f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eb493a82e0e34a8c6deae1ed2f872a9') in 0.152962 seconds 
+  Import took 0.156130 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000561 seconds.
-  path: Assets/Textures
-  artifactKey: Guid(922e16dde3dd8e5429455988f4aaf177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures using Guid(922e16dde3dd8e5429455988f4aaf177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea287562cdbf1e9a1daee507a06f5b08') in 0.006544 seconds 
-  Import took 0.008757 seconds .
+  Time since last request: 0.000289 seconds.
+  path: Assets/Textures/Terrain/2D Grass.psd
+  artifactKey: Guid(0c456ba21764374419f19c05562e7d8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Terrain/2D Grass.psd using Guid(0c456ba21764374419f19c05562e7d8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b96424a2ff58b0b54b0f9e8052e45fe') in 0.016876 seconds 
+  Import took 0.019401 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000280 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(f64966cf1e2f5934e83002652b044f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(f64966cf1e2f5934e83002652b044f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e4c27565beec5770a772855996c85f0') in 0.020135 seconds 
-  Import took 0.022239 seconds .
+  Time since last request: 0.000190 seconds.
+  path: Assets/Textures/Weapons/First Person/Arms_SPEC.png
+  artifactKey: Guid(858e8f9aad3d1d347babe4a54ece9d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Weapons/First Person/Arms_SPEC.png using Guid(858e8f9aad3d1d347babe4a54ece9d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff05291362f0e7b8df11ecc066d45715') in 0.128643 seconds 
+  Import took 0.131530 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 595.573190 seconds.
-  path: Assets/Prefabs
-  artifactKey: Guid(c1d9f72383ae1c64cbf44c2942276917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs using Guid(c1d9f72383ae1c64cbf44c2942276917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '247c62d5d7daf2a0f5d32b42d6b78803') in 0.008154 seconds 
-  Import took 0.010854 seconds .
+  Time since last request: 0.000269 seconds.
+  path: Assets/Textures/Weapons/First Person/Assault Rifle_MET.png
+  artifactKey: Guid(2e66fc85b9ea4624fb33983da93ae9c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Weapons/First Person/Assault Rifle_MET.png using Guid(2e66fc85b9ea4624fb33983da93ae9c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fa494c53f2f269cbfd225688589a5f4') in 0.125199 seconds 
+  Import took 0.127822 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Textures/Weapons/World/Assault Rifle_Pickup.png
+  artifactKey: Guid(7d713aa7113d1d04f82d5701a35cab49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Weapons/World/Assault Rifle_Pickup.png using Guid(7d713aa7113d1d04f82d5701a35cab49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9987d8991fca38aacc651294a71e50c8') in 0.026611 seconds 
+  Import took 0.029511 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Textures/Weapons/First Person/Assault Rifle_NRM.png
+  artifactKey: Guid(c88259f110c245a46904e1fe0dfeb575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Weapons/First Person/Assault Rifle_NRM.png using Guid(c88259f110c245a46904e1fe0dfeb575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '609f05cd4152ffa61743bb7752fccf89') in 0.170319 seconds 
+  Import took 0.173117 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Textures/Weapons/First Person/Axe_NRM.png
+  artifactKey: Guid(cb95ab3448b54f346b2d9ce4f41cec08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Weapons/First Person/Axe_NRM.png using Guid(cb95ab3448b54f346b2d9ce4f41cec08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb4e6f39582140810d5aa4bd5a92bd8c') in 0.101841 seconds 
+  Import took 0.104003 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Textures/Weapons/First Person/Arms_NRM.png
+  artifactKey: Guid(c9f4b2be92483774cac87ee120b479b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Weapons/First Person/Arms_NRM.png using Guid(c9f4b2be92483774cac87ee120b479b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72df90626ac08d23ec431674d1a24fe5') in 0.115654 seconds 
+  Import took 0.117981 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Textures/Weapons/First Person/Arms.png
+  artifactKey: Guid(f8f7d0f8f66465144abb1dff7f10f156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Weapons/First Person/Arms.png using Guid(f8f7d0f8f66465144abb1dff7f10f156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceed1fe84c3f0364a51a53ed649667d2') in 0.064201 seconds 
+  Import took 0.066496 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/added-file-dark.png
+  artifactKey: Guid(1a4f52b613391cd449af3ad2e44affeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/added-file-dark.png using Guid(1a4f52b613391cd449af3ad2e44affeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6c50c6b02d9b73c5e2e4a85549794a4') in 0.056329 seconds 
+  Import took 0.058894 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/added-file-dark@2x.png
+  artifactKey: Guid(c223e0c507e2c6549a2cb97441b62cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/added-file-dark@2x.png using Guid(c223e0c507e2c6549a2cb97441b62cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9424499d8ed03e8df785259fedae1b3') in 0.034425 seconds 
+  Import took 0.037125 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Textures/Weapons/First Person/Assault Rifle_AO.png
+  artifactKey: Guid(b0ec32476c773cd45b5514bd3fbff511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Weapons/First Person/Assault Rifle_AO.png using Guid(b0ec32476c773cd45b5514bd3fbff511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85b03138564bbd85379b2fc015b5c699') in 0.120392 seconds 
+  Import took 0.123754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000458 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/added-file-light@2x.png
+  artifactKey: Guid(ec2e3aa6d0ab8ce4eac29b56d65d61d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/added-file-light@2x.png using Guid(ec2e3aa6d0ab8ce4eac29b56d65d61d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4de0a7a5e4ce4511bc09095573cae8b') in 0.030692 seconds 
+  Import took 0.035380 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Textures/Weapons/First Person/Assault Rifle.png
+  artifactKey: Guid(fea1912f62790f142bc4b461edbce5f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Weapons/First Person/Assault Rifle.png using Guid(fea1912f62790f142bc4b461edbce5f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab5892631d51ff89738e8bc88e62a01c') in 0.084637 seconds 
+  Import took 0.087093 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/added-file-light.png
+  artifactKey: Guid(397fff6c3885f8343bb65714f0064b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/added-file-light.png using Guid(397fff6c3885f8343bb65714f0064b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c673a4f73ecb39b34c0c364ab5d41a87') in 0.024752 seconds 
+  Import took 0.026966 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2434.768115 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce6a35c3cddc746e7501c0bd0ed6d4ce') in 0.008824 seconds 
+  Import took 0.011480 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
